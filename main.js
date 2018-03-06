@@ -70,12 +70,12 @@ class API extends (a=>{a.prototype=Proxy;return a})(Proxy){ // safe wrapper for 
                         };
                         return data => {return realFunc(data)}
                     },
-                    set(target2, method, value){
+                    set(){
                         return false
                     }
                 })
             },
-            set(target, prop, value){
+            set(){
                 return false
             }
         })
