@@ -1,9 +1,29 @@
 {
-    "name": "node-vk-api",
-    "version": "0.0.1",
-    "dependencies": {
-        "querystring": "^0.2.0",
-        "request": "^2.83.0"
-    },
-    "main": "main.js"
+  "name": "node-vk-api",
+  "version": "0.0.1",
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "request": "^2.83.0"
+  },
+  "main": "main.js",
+  "description": "Native-like vk API module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaMeHb-UA/node-vk-api.git"
+  },
+  "keywords": [
+    "vk",
+    "vkontakte",
+    "api"
+  ],
+  "author": "KaMeHb-UA",
+  "license": "MS-PL",
+  "bugs": {
+    "url": "https://github.com/KaMeHb-UA/node-vk-api/issues"
+  },
+  "homepage": "https://github.com/KaMeHb-UA/node-vk-api#readme"
 }
